@@ -1,6 +1,12 @@
 % EGG QUEST - THE KNIGHT AND THE DRAGON EGG
 % Final project: a single-player, keyboard-controlled maze game.
 %
+% WARNING !!! YOU MAY HAVE TO USE THE COMMAND "cd" AND COPYPASTE THE ACCESS
+% PATHWAY OF THE GAME FOLDER LIKE THIS : cd "C://Users//...". YOU MAY HAVE TO
+% DOUCLE THE "/" TOO. THEN YOU CAN USE THE FUNCTION "eggquest".
+% IF IT IS STILL NOT WORKING, YOU CAN USE THE "run" COMMAND WITH THE ACCESS
+% PATHWAY OF THE GAME DIRECTLY.
+%
 % GOAL AND CONTEXT
 % Guide a knight through a randomly generated maze and reach the dragon egg.
 % The player studies the revealed hazards, then navigates after they disappear.
