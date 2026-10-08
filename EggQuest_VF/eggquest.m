@@ -49,6 +49,7 @@
 % - WAV audio assets: converted from the supplied MP3 files with FFmpeg.
 % - Artwork credits: Ariane FRANCO-ROGELIO ; IbisPaintX
 % - Music credits: Arlie Karoutchi ; FLStudio (no copyright)
+% - Tools used : Claude AI
 %
 % SOFTWARE AND SUBMISSION METADATA
 % Octave version: GNU Octave 11.3.0
