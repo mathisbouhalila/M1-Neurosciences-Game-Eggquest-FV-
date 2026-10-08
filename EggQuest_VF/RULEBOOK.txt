@@ -1,0 +1,58 @@
+THE KNIGHT AND THE DRAGON EGG
+Game Rules and Launch Guide
+
+OBJECTIVE
+Guide the knight through a random maze and reach the dragon egg. Touching a
+flame loses the round. Reaching the egg wins.
+
+THE MAZE
+Each round creates a new maze with twelve flames by default. The knight starts
+near the middle of the top edge, and the egg is placed in a far bottom corner.
+Several routes can lead to the egg, with dangerous alternate branches and at
+least one safe route. An illustrated intro screen appears first. Press Space to
+view the maze and study the visible flames and egg. The first valid move hides
+them with a brief flash.
+
+RESULT SCREENS
+The supplied victory image appears when the knight reaches the egg. The supplied
+defeat image appears when the knight touches a flame. Press Space or click the
+Replay button to start a new maze after either result.
+
+AUDIO CUES
+The Intro track plays on the intro screen and after Replay while the maze is
+visible. The first valid move stops the intro and starts the looping Labyrinth
+music. The Death track plays when the knight touches a flame. The You saved the
+egg track plays when the knight reaches the egg. Escape stops playback.
+
+CONTROLS
+- Press Space on the intro screen: reveal the maze.
+- Arrow keys, WASD, or ZQSD: move one cell.
+- Press Space after a win or loss, or click Replay: start a new maze.
+- Escape: close the game at any time.
+
+You do not need to press Enter after moving. Click the game window once if it
+does not have keyboard focus.
+
+LAUNCHING THE GAME
+1. Keep eggquest.m and the assets folder together in one folder.
+2. Open GNU Octave with its graphical interface (Octave GUI).
+3. In the Octave console, change to that folder. For example:
+       cd('C:\Users\YourName\Downloads\EggQuest')
+4. Start the game by entering:
+       eggquest
+
+The assets folder must contain knight.png, wall.png, flame.png, egg.png,
+intro.png, win.png, and lose.png, along with these WAV files: Egg quest -
+Labyrinth.wav, Egg quest - Intro.wav, Egg quest - Death.wav, and Egg quest -
+You saved the egg.wav. Original MP3 files are included as sources. Keep the
+filenames unchanged.
+
+CUSTOM SETTINGS
+You can provide the maze size and flame count. For example:
+       eggquest(8, 12)
+The maze size must be at least 8, and the flame count at least 12.
+
+REQUIREMENTS
+The game needs Octave GUI with the Qt or FLTK graphics toolkit. Audio playback
+uses Octave's default audio device. The game remains playable if audio is
+unavailable.
