@@ -56,3 +56,20 @@ REQUIREMENTS
 The game needs Octave GUI with the Qt or FLTK graphics toolkit. Audio playback
 uses Octave's default audio device. The game remains playable if audio is
 unavailable.
+
+SOURCES AND CREDITS
+- Maze generation: procedural Octave code in this file; no word list is used.
+- Images and original MP3 tracks: supplied by the students.
+- WAV audio assets: converted from the supplied MP3 files with FFmpeg.
+- Artwork credits: Ariane FRANCO-ROGELIO ; IbisPaintX
+- Music credits: Arlie Karoutchi ; FLStudio (no copyright)
+- Tools used : Codex from ChatGPT AI
+
+SOFTWARE AND SUBMISSION METADATA
+Octave version: GNU Octave 11.3.0
+Code version: 1.1
+Date: 2026-10-08 (YYYY-MM-DD)
+Authors and contributions :
+- Mathis BOUHALILA: Program generation, troubleshooting, concept creation.
+- Ariane FRANCO-ROGELIO: Graphic artworks, concept creation.
+- Arlie KAROUTCHI: Composition of the soundtracks, concept creation.
